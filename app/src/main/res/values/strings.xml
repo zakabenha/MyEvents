@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyEvents</string>
+    <string name="event_create_description">Description</string>
+    <string name="event_create">Create new event</string>
+    <string name="event_create_location">Location</string>
+    <string name="event_create_price">Price</string>
+    <string name="event_create_seats_available">Available seats</string>
+    <string name="event_create_name">Name</string>
+    <string name="event_create_start_time">Start Time</string>
+    <string name="event_create_start_date">Start Date</string>
+    <string name="event_create_end_time">End Time</string>
+    <string name="event_create_end_date">End Date</string>
+    <string name="Event_create_type">Category</string>
+    <string name="event_creation">New Event</string>
+</resources>

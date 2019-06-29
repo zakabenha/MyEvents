@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "913600283764",
+    "firebase_url": "https://eventsmanagement-pfa.firebaseio.com",
+    "project_id": "eventsmanagement-pfa",
+    "storage_bucket": "eventsmanagement-pfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913600283764:android:d9b80032096386af",
+        "android_client_info": {
+          "package_name": "com.emsi.myevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913600283764-00hnpugaig55r40f9oo4ub163ognng6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emsi.myevents",
+            "certificate_hash": "fa4f52289654f350e6d616cca0944cc5fa95813d"
+          }
+        },
+        {
+          "client_id": "913600283764-7d88mv3jbo8fk5q5km55fofv6cmrajtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2PZF_mEBRuGKFyCsOne1ejByn2sgedl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913600283764-7d88mv3jbo8fk5q5km55fofv6cmrajtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
