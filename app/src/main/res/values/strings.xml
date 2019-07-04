@@ -1,15 +1,32 @@
 <resources>
     <string name="app_name">MyEvents</string>
-    <string name="event_create_description">Description</string>
-    <string name="event_create">Create new event</string>
-    <string name="event_create_location">Location</string>
-    <string name="event_create_price">Price</string>
-    <string name="event_create_seats_available">Available seats</string>
+
     <string name="event_create_name">Name</string>
-    <string name="event_create_start_time">Start Time</string>
-    <string name="event_create_start_date">Start Date</string>
-    <string name="event_create_end_time">End Time</string>
-    <string name="event_create_end_date">End Date</string>
-    <string name="Event_create_type">Category</string>
+
+    <string-array name="eventTypes">
+        <item>Sport</item>
+        <item>Party</item>
+        <item>Training</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Event creation -->
     <string name="event_creation">New Event</string>
+    <string name="event_create_submit_error_message" translatable="false">Please make sure to fill all obligatory fields</string>
+    <string name="event_create_advanced_show">Advanced options</string>
+    <string name="event_create_submit_error_title" translatable="false">Error !</string>
+    <string name="event_create_submit_date_error_message" translatable="false">The end date cannot be anterior to the start !</string>
+    <string name="event_create_submit_seats_error_message" translatable="false">You need at least five seats available to your event !</string>
+    <string name="event_create_submit_price_error_message" translatable="false">The price cannot be negative !</string>
+    <string name="event_create">New Event</string>
+    <string name="event_create_description">Description</string>
+    <string name="event_create_end_date">End Date</string>
+    <string name="event_create_end_time">End Time</string>
+    <string name="event_create_location">Location</string>
+    <string name="event_create_price">Price(MAD)</string>
+    <string name="event_create_seats_available">Available Seats</string>
+    <string name="event_create_start_date">Start Date</string>
+    <string name="event_create_start_time">Start Time</string>
+
+
 </resources>

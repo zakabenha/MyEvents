@@ -1,4 +1,5 @@
 package com.emsi.myevents.Model;
 
-public class Organisateur {
+public class Organisateur{
+
 }

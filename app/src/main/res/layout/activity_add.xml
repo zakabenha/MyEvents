@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".UI.AddActivity">
+    tools:context="com.emsi.myevents.UI.CreateEventActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +19,7 @@
         android:layout_alignParentTop="true">
 
         <TextView
-            android:text="@string/event_creation"
+            android:text="Event Creation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/activity_create_event_title_textview"
@@ -33,8 +33,7 @@
             android:ems="10"
             android:id="@+id/activity_create_event_name"
             android:hint="@string/event_create_name"
-            android:fontFamily="sans-serif"
-            android:importantForAutofill="no">
+            android:fontFamily="sans-serif">
             <requestFocus />
         </EditText>
 
@@ -80,7 +79,7 @@
                 android:layout_weight="1"
                 android:focusable="false"
                 android:hint="@string/event_create_end_time"
-                android:importantForAutofill="no" />
+                />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -90,13 +89,12 @@
                 android:id="@+id/activity_create_event_end_date"
                 android:layout_weight="1"
                 android:focusable="false"
-                android:hint="@string/event_create_end_date"
-                android:importantForAutofill="no" />
+                android:hint="@string/event_create_end_date" />
 
         </LinearLayout>
 
         <TextView
-            android:text="@string/Event_create_type"
+            android:text="Event type :"
             android:layout_width="match_parent"
             android:id="@+id/activity_create_event_type_selection_textview"
             android:textSize="18sp"
@@ -113,15 +111,14 @@
             android:inputType="text"
             android:ems="10"
             android:id="@+id/activity_create_event_location"
-            android:hint="@string/event_create_location"
-            android:importantForAutofill="no" />
+            android:hint="@string/event_create_location" />
 
-       <!-- <Button
+        <Button
             android:text="@string/event_create_advanced_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/activity_create_event_advanced_button" />
--->
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
