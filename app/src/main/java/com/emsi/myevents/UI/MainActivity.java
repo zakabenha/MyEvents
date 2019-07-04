@@ -1,4 +1,4 @@
-package com.emsi.myevents;
+package com.emsi.myevents.UI;
 
 
 import android.content.Intent;
@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.emsi.myevents.R;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.android.gms.tasks.OnCompleteListener;
