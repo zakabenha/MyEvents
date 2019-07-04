@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".UI.HomeActivity"></activity>
-        <activity android:name=".UI.AddActivity"></activity>
+        <activity android:name=".UI.CreateEventActivity"></activity>
+        <activity android:name=".UI.HomeActivity" />
+        <activity android:name=".UI.AddActivity" />
         <activity android:name=".UI.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
