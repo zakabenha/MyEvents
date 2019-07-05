@@ -157,7 +157,7 @@ public class HomeActivity extends AppCompatActivity {
                     for (Evenement event : listEventSort) {
                         HashMap<String, Object> hashMapValuesEvent = new HashMap<>();
                         hashMapValuesEvent.put("nameEvent", event.name);
-                        hashMapValuesEvent.put("association", listOrganisateur.get(event.organisateur));
+                        hashMapValuesEvent.put("organisateur", listOrganisateur.get(event.organisateur));
                         try {
                             hashMapValuesEvent.put("dateEventBegin",
                                     outputDate.format(inputDate.parse(event.start)));
@@ -172,7 +172,7 @@ public class HomeActivity extends AppCompatActivity {
                             "dateEventBegin",
                             "locationEvent"};
                     int[] to = new int[]{R.id.content_list_events_name_event,
-                            R.id.content_list_events_name_association,
+                            R.id.content_list_events_name_organisateur,
                             R.id.content_list_events_date_event_begin,
                             R.id.content_list_events_location_event};
 
