@@ -145,7 +145,7 @@ public class CreateEventActivity extends AppCompatActivity {
                 final String eventLocation = eventLocationEditText.getText().toString().trim();
                 String eventSeatsAvailable = eventSeatsAvailableEditText.getText().toString().trim();
                 String eventPrice = eventPriceEditText.getText().toString().trim();
-                final String eventOrgaciation = eventOrga;
+                final String eventOrgani = eventOrga;
 
                 //Checking value of optional fields
                 if (eventDescription.isEmpty()){
@@ -180,8 +180,8 @@ public class CreateEventActivity extends AppCompatActivity {
                 }
                 else{
                     database.push()
-                            .setValue(new Evenement( "", eventName, eventStart, eventEnd, eventType,  eventLocation,
-                                    Float.parseFloat(eventPrice), Integer.parseInt(eventSeatsAvailable),eventDescription)
+                            .setValue(new Evenement( "", eventName, eventStart, eventEnd, eventType, eventOrgani, eventLocation,
+                                    Float.parseFloat(eventPrice), Integer.parseInt(eventSeatsAvailable), eventDescription)
                                     .toMap());
                     loadMain();
                 }

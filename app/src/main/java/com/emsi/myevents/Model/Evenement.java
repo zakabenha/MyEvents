@@ -21,7 +21,7 @@ public class Evenement {
     //public int bail;
     public int seat_number;
     public int seat_free;
-  //  public String association;
+    public String organisateur;
     public int logo;
 
     public static DateFormat dateFormat =
@@ -32,7 +32,7 @@ public class Evenement {
     }
 
     public Evenement(String uid,String name, String start, String end, String type, String description, String location,
-                 float price,  int seat_number, int logo){
+                 float price,  int seat_number, String organisateur,int logo){
         this.uid=uid;
         this.name=name;
         this.start=start;
@@ -45,17 +45,17 @@ public class Evenement {
         this.seat_number=seat_number;
         this.seat_free=seat_number;
         this.logo=logo;
-       // this.association=association;
+        this.organisateur=organisateur;
     }
 
-    public Evenement(String uid, String name, String start, String end, String type,
+    public Evenement(String uid, String name, String start, String end, String type,String organisateur,
                  String location, float price, int seat_number, String description){
         this.uid=uid;
         this.name=name;
         this.start=start;
         this.end=end;
         this.type=type;
-        //this.association=association;
+        this.organisateur=organisateur;
         this.location=location;
         this.price=price;
         this.seat_free=seat_number;
@@ -83,7 +83,7 @@ public class Evenement {
         result.put("name", name);
         result.put("description", description);
         result.put("type", type);
-        //result.put("association", association);
+        result.put("organisateur", organisateur);
         result.put("location", location);
         result.put("price", price);
         result.put("seats number", seat_number);
@@ -97,7 +97,7 @@ public class Evenement {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("name= ").append(name).append("\n");
-        //sb.append("association= ").append(association.name).append("\n");
+        sb.append("organisateur= ").append(organisateur).append("\n");
         sb.append("start= ").append(start).append("\n");
         sb.append("end= ").append(end).append("\n");
         sb.append("seatNumber= ").append(seat_number).append("\n");
